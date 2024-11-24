@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "a841",
+      "name": "yeshwanth",
+      "email": "yashwanthp90@gmail.com",
+      "role": "admin",
+      "status": "inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin",
+      "permissions": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "user",
+      "permissions": [
+        "read"
+      ]
+    }
+  ]
+}
